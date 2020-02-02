@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before-install:
+  - docker build -t joaquimbarreto/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true joaquimbarreto/docker-react npm run test
