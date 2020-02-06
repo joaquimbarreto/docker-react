@@ -15,5 +15,5 @@ services:
       dockerfile: Dockerfile.dev
     volumes:
       - /app/node_modules
-      - :/client
+      - .:/client
     command: ['npm', 'run', 'test']
