@@ -16,7 +16,7 @@ function App() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          Learn React & Docker oh yeah!???
+          Learn React & Docker make sure it is running
         </a>
       </header>
     </div>
